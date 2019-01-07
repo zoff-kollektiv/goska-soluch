@@ -1,19 +1,17 @@
+import Helmet from 'react-helmet';
 import React from 'react';
 
 export default () => (
   <main>
+    <Helmet>
+      <title>Goska Soluch</title>
+    </Helmet>
+
     <style jsx>{`
       *,
       *::after,
       *::before {
         box-sizing: border-box;
-      }
-
-      body {
-        background-color: rgb(252, 71, 76);
-        color: black;
-        margin: 0;
-        padding: 0;
       }
 
       @font-face {
@@ -22,8 +20,15 @@ export default () => (
         font-style: normal;
         font-weight: 400;
         src: local('Questrial'), local('Questrial-Regular'),
-          url(/fonts/questrial.woff2) format('woff2') url(/fonts/questrial.woff)
-            format('woff');
+          url(/fonts/questrial/questrial.woff2) format('woff2'),
+          url(/fonts/questrial/questrial.woff) format('woff');
+      }
+
+      body {
+        background-color: rgb(252, 71, 76);
+        color: black;
+        margin: 0;
+        padding: 0;
       }
 
       main {
