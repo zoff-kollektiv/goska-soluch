@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { colors } from '../../token';
+import { colors, fonts } from '../../token';
 
 export default css`
   header {
@@ -13,6 +13,8 @@ export default css`
 
   .title {
     align-self: center;
+    font-family: ${fonts.questrial.family};
+    font-size: 1.125rem;
     margin: 0 auto;
     text-align: center;
   }
