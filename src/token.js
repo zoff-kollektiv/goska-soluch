@@ -1,5 +1,7 @@
 export const colors = {
-  red: '#FF4646'
+  blue: '#4390FF',
+  red: '#FF4646',
+  yellow: '#FFF246'
 };
 
 export const fonts = {
