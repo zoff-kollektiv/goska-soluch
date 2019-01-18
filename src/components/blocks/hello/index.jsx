@@ -6,7 +6,7 @@ import Paragraph from '../../paragraph';
 
 import style from './style';
 
-export default ({ title, intro }) => (
+export default ({ frontmatter: { title }, intro }) => (
   <Block theme="red">
     <div className="hello">
       <style jsx>{style}</style>

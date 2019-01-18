@@ -1,3 +1,4 @@
+import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import React from 'react';
 
@@ -5,7 +6,7 @@ import Header from '../components/header';
 import Hello from '../components/blocks/hello';
 import withLayout from '../components/with-layout';
 
-export default withLayout(() => (
+export default withLayout(({ data: { hello } }) => (
   <main>
     <Helmet>
       <title>Goska Soluch</title>
@@ -13,11 +14,17 @@ export default withLayout(() => (
 
     <Header title="Trainerin • Referentin • Prozessbegleiterin" />
 
-    <Hello
-      title="Hallo!"
-      intro="Begleitung von durch. bedeutet für mich und immer schon. Begleitung von
-      durch. bedeutet für mich und immer schon.Begleitung von durch. bedeutet
-      für mich und immer schon."
-    />
+    <Hello {...hello} />
   </main>
 ));
+
+export const query = graphql`
+  query {
+    hello: markdownRemark(fileAbsolutePath: { regex: "/hello.md$/" }) {
+      intro: rawMarkdownBody
+      frontmatter {
+        title
+      }
+    }
+  }
+`;
