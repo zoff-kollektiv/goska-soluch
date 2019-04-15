@@ -33,7 +33,7 @@ export default withLayout(
         </Block>
       ))}
 
-      <Contact {...contact} />
+      <Contact id="kontakt" {...contact} />
     </main>
   )
 );

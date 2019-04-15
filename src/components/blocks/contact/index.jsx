@@ -6,8 +6,12 @@ import Paragraph from '../../paragraph';
 
 import style, { introStyles } from './style';
 
-export default ({ frontmatter: { theme, title, email, telephone }, intro }) => (
-  <Block theme={theme}>
+export default ({
+  frontmatter: { theme, title, email, telephone },
+  intro,
+  ...attrs
+}) => (
+  <Block theme={theme} {...attrs}>
     <style jsx>{style}</style>
     {introStyles.styles}
 

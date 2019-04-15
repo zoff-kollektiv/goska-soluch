@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { colors, fonts } from '../../token';
+import { colors, fonts, mq } from '../../token';
 
 export default css`
   header {
@@ -14,8 +14,14 @@ export default css`
   .title {
     align-self: center;
     font-family: ${fonts.questrial.family};
-    font-size: 1.125rem;
+    font-size: 0.9rem;
     margin: 0 auto;
     text-align: center;
+  }
+
+  @media ${mq.tablet} {
+    .title {
+      font-size: 1.125rem;
+    }
   }
 `;

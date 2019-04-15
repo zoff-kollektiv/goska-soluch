@@ -2,14 +2,20 @@ import css from 'styled-jsx/css';
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
-import { fonts } from '../../../token';
+import { fonts, mq } from '../../../token';
 
 export default css`
   .text-container {
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+  }
+
+  @media ${mq.tablet} {
+    .text-container {
+      width: 50%;
+    }
   }
 
   .text-container a {
@@ -20,7 +26,13 @@ export default css`
 
   .navigation {
     flex: 0 0 auto;
-    max-width: 50%;
+    width: 100%;
+  }
+
+  @media ${mq.tablet} {
+    .navigation {
+      max-width: 50%;
+    }
   }
 
   .navigation-list {
@@ -30,6 +42,18 @@ export default css`
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+    margin-bottom: 4rem;
+    margin-left: -1.5rem;
+    margin-top: 4rem;
+    padding-left: 0;
+  }
+
+  @media ${mq.tablet} {
+    .navigation-list {
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-top: 0;
+    }
   }
 
   .navigation-list-item {
@@ -37,10 +61,16 @@ export default css`
     display: flex;
     flex: 0 1 auto;
     flex-direction: column;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     padding-top: 1rem;
     text-align: center;
     width: 50%;
+  }
+
+  @media ${mq.tablet} {
+    .navigation-list-item {
+      padding-left: 3rem;
+    }
   }
 
   .navigation-list-item:nth-child(2) {
@@ -54,7 +84,13 @@ export default css`
   a {
     color: currentColor;
     font-family: ${fonts.questrial.family};
-    font-size: 1.125rem;
+    font-size: 1rem;
+  }
+
+  @media ${mq.tablet} {
+    a {
+      font-size: 1.125rem;
+    }
   }
 
   a:hover,

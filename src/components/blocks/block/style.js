@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { colors } from '../../../token';
+import { colors, mq } from '../../../token';
 
 export default css`
   section {
@@ -9,6 +9,8 @@ export default css`
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .has-theme-blue {
@@ -25,7 +27,13 @@ export default css`
 
   .constraint {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     max-width: 800px;
+  }
+
+  @media ${mq.tablet} {
+    .constraint {
+      flex-direction: row;
+    }
   }
 `;

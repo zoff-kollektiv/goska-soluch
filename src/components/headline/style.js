@@ -1,6 +1,6 @@
 import css from 'styled-jsx/css';
 
-import { fonts } from '../../token';
+import { fonts, mq } from '../../token';
 
 export default css`
   .headline {
@@ -11,7 +11,13 @@ export default css`
   }
 
   .has-level-2 {
-    font-size: 3rem;
+    font-size: 1.625rem;
     line-height: 1.2;
+  }
+
+  @media ${mq.tablet} {
+    .has-level-2 {
+      font-size: 3rem;
+    }
   }
 `;

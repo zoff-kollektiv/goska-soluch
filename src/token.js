@@ -9,3 +9,11 @@ export const fonts = {
     family: 'Questrial'
   }
 };
+
+export const mq = [['phone', 500], ['tablet', 768], ['desktop', 1024]].reduce(
+  (acc, [name, size]) => {
+    acc[name] = `only screen and (min-width: ${size}px)`;
+    return acc;
+  },
+  {}
+);

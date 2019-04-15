@@ -2,7 +2,7 @@ import css from 'styled-jsx/css';
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
-import { fonts } from '../../../token';
+import { fonts, mq } from '../../../token';
 
 export default css`
   .telephone,
@@ -10,10 +10,17 @@ export default css`
     color: currentColor;
     display: block;
     font-family: ${fonts.questrial.family};
-    font-size: 3rem;
+    font-size: 1rem;
     line-height: 1.2;
     text-align: center;
     text-decoration: none;
+  }
+
+  @media ${mq.tablet} {
+    .telephone,
+    .email {
+      font-size: 3rem;
+    }
   }
 
   .telephone:hover,
