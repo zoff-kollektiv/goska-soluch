@@ -16,9 +16,15 @@ module.exports = {
       }
     },
 
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        excerpt_separator: '<!-- excerpt-end -->'
+      }
+    },
+
     'gatsby-plugin-styled-jsx',
     'gatsby-plugin-react-helmet',
-    'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp'
   ]

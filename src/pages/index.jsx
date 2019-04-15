@@ -27,9 +27,14 @@ export default withLayout(
 
       <Hello images={helloImages} {...hello} />
 
-      {blocks.map(({ intro, frontmatter: { title, theme } }, index) => (
+      {blocks.map(({ excerpt, body, frontmatter: { title, theme } }, index) => (
         <Block id={title && title.toLowerCase()} theme={theme}>
-          <BlockContent title={title} intro={intro} index={index + 1} />
+          <BlockContent
+            title={title}
+            excerpt={excerpt}
+            body={body}
+            index={index + 1}
+          />
         </Block>
       ))}
 
@@ -80,7 +85,8 @@ export const query = graphql`
       sort: { fields: [frontmatter___order] }
     ) {
       nodes {
-        intro: rawMarkdownBody
+        body: html
+        excerpt(format: HTML)
         frontmatter {
           title
           theme

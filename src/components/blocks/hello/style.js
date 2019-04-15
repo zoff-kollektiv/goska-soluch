@@ -64,7 +64,7 @@ export default css`
     padding-left: 1.5rem;
     padding-top: 1rem;
     text-align: center;
-    width: 50%;
+    width: 40%;
   }
 
   @media ${mq.tablet} {

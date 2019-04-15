@@ -9,8 +9,13 @@ export default css`
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 1.5rem 1.5rem;
+  }
+
+  @media ${mq.tablet} {
+    section {
+      padding: 3.5rem 0;
+    }
   }
 
   .has-theme-blue {
@@ -28,7 +33,7 @@ export default css`
   .constraint {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 920px;
   }
 
   @media ${mq.tablet} {
