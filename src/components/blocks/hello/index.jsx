@@ -41,7 +41,7 @@ export default ({ images, frontmatter: { theme, title }, intro }) => (
 
         <li className="navigation-list-item">
           <a href="#themen">
-            <Picture {...findImageByName('arbeitsweise', images)} />
+            <Picture {...findImageByName('themen', images)} />
             <span className="navigation-item">Themen</span>
           </a>
         </li>
