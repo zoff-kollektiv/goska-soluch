@@ -2,8 +2,6 @@
 title: Hallo!
 theme: red
 ---
-Ich heiße Sie auf meiner Webseite herzlich willkommen.
-
 Goska Soluch, so werde ich genannt. Manchmal nur Goska, manchmal Frau Soluch.
 
 Ich möchte Ihnen hier Einblick in meine Erfahrungen und Themenbereiche aus den
