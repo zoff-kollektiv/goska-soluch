@@ -33,7 +33,7 @@ export default css`
   .constraint {
     display: flex;
     flex-direction: column;
-    max-width: 920px;
+    max-width: 1100px;
   }
 
   @media ${mq.tablet} {

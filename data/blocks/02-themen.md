@@ -2,6 +2,7 @@
 title: Themen
 theme: blue
 order: 2
+image: "./02-themen.png"
 ---
 Immer empfehle ich als Erstes: Schreiben Sie mich auf jeden Fall an und fragen
 Sie, ob ich Ihre individuellen Themen abdecken und übernehmen kann! Und dennoch

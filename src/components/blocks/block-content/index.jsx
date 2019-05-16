@@ -6,15 +6,32 @@ import Headline from '../../headline';
 
 import style from './style';
 
-export default ({ index, title, body, excerpt }) => {
+export default ({ index, title, body, excerpt, image }) => {
   const [{ isOpen }, setOpen] = useState({ isOpen: false });
 
   return (
     <article>
       <style jsx>{style}</style>
       <header className="excerpt">
-        <div className="index">{index}</div>
+        <div className="image">
+          {image && image.childImageSharp && (
+            <picture>
+              <source
+                srcSet={image.childImageSharp.fluid.srcSetWebp}
+                sizes={image.childImageSharp.fluid.sizes}
+                type="image/webp"
+              />
+              <source
+                srcSet={image.childImageSharp.fluid.srcSet}
+                sizes={image.childImageSharp.fluid.sizes}
+                type="image/png"
+              />
+              <img src={image.childImageSharp.fluid.src} alt="" />
+            </picture>
+          )}
+        </div>
         <div className="content">
+          <div className="index">{index}</div>
           <Headline level="2">{title}</Headline>
           <div
             className="excerpt-text"

@@ -27,16 +27,19 @@ export default withLayout(
 
       <Hello images={helloImages} {...hello} />
 
-      {blocks.map(({ excerpt, body, frontmatter: { title, theme } }, index) => (
-        <Block id={title && title.toLowerCase()} theme={theme}>
-          <BlockContent
-            title={title}
-            excerpt={excerpt}
-            body={body}
-            index={index + 1}
-          />
-        </Block>
-      ))}
+      {blocks.map(
+        ({ excerpt, body, frontmatter: { title, theme, image } }, index) => (
+          <Block id={title && title.toLowerCase()} theme={theme}>
+            <BlockContent
+              title={title}
+              excerpt={excerpt}
+              body={body}
+              index={index + 1}
+              image={image}
+            />
+          </Block>
+        )
+      )}
 
       <Contact id="kontakt" {...contact} />
     </main>
@@ -53,7 +56,7 @@ export const query = graphql`
       }
     }
 
-    contact: markdownRemark(fileAbsolutePath: { regex: "/contact.md$/" }) {
+    contact: markdownRemark(fileAbsolutePath: { regex: "/05-contact.md$/" }) {
       intro: rawMarkdownBody
       frontmatter {
         title
@@ -64,7 +67,10 @@ export const query = graphql`
     }
 
     helloImages: allFile(
-      filter: { sourceInstanceName: { eq: "images-hello" } }
+      filter: {
+        sourceInstanceName: { eq: "images-hello" }
+        absolutePath: { regex: "/jpg|png$/" }
+      }
     ) {
       nodes {
         name
@@ -90,6 +96,17 @@ export const query = graphql`
         frontmatter {
           title
           theme
+          image {
+            childImageSharp {
+              fluid(maxWidth: 400, srcSetBreakpoints: [400, 200]) {
+                src
+                srcSet
+                srcWebp
+                srcSetWebp
+                sizes
+              }
+            }
+          }
         }
       }
     }

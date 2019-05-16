@@ -6,6 +6,7 @@ export default css`
   article {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .excerpt {
@@ -16,17 +17,23 @@ export default css`
   .index {
     font-family: ${fonts.questrial.family};
     font-size: 6.25rem;
-    margin-bottom: 2rem;
-    text-align: center;
   }
 
   @media ${mq.tablet} {
     .index {
-      font-size: 25rem;
+      font-size: 15rem;
       margin-bottom: 0;
-      text-align: left;
-      width: 40%;
     }
+  }
+
+  .image {
+    align-items: center;
+    display: flex;
+    width: 40%;
+  }
+
+  .image img {
+    width: 95%;
   }
 
   .content {

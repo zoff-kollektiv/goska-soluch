@@ -7,7 +7,6 @@ export default css`
     font-family: ${fonts.questrial.family};
     margin-bottom: 0;
     margin-top: 0;
-    text-align: center;
   }
 
   .has-level-2 {

@@ -2,6 +2,7 @@
 title: Angebot
 theme: red
 order: 3
+image: "./03-angebot.png"
 ---
 Der Prozess ist mein Steckenpferd, Gruppendynamiken meine Obsession. Deswegen
 überlasse ich das Format, in welchem wir zusammen arbeiten und lernen wollen,
@@ -32,7 +33,6 @@ Vertiefungsseminare und mehrjährige Praxis- & Prozessbegleitungen an.
 Das Format vom Lernen und von Reflexion sollten am Ende Sie selbst festlegen und
 bestimmen. Sie wissen, was zu Ihnen passt und wie Sie und Ihre Kolleg*innen gut
 teilhaben können. Ich berate Sie dabei gern, stehe Ihnen zur Seite und gebe
-meine Expertise mit Freude an sie weiter.
-
-Garantien für’s Leben und Lernen gibt es nicht. Aber ich garantiere Ihnen, dass
-Sie nicht enttäuscht sein werden. Packen wir’s an!
+meine Expertise mit Freude an sie weiter. <br/><br/> Garantien für’s Leben und
+Lernen gibt es nicht. Aber ich garantiere Ihnen, dass Sie nicht enttäuscht sein
+werden. Packen wir’s an!
