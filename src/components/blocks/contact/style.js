@@ -5,6 +5,10 @@ import React from 'react';
 import { fonts, mq } from '../../../token';
 
 export default css`
+  .text-container {
+    text-align: center;
+  }
+
   .telephone,
   .email {
     color: currentColor;
