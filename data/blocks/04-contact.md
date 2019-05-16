@@ -1,7 +1,7 @@
 ---
 title: Kontakt
 theme: blue
-email: goska.soluch@gmx.net
+email: soluch@posteo.de
 telephone: 0163 / 344 38 68
 ---
 Sollten Sie Fragen oder Interesse haben, senden Sie mir bitte eine E-Mail

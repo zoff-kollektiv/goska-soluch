@@ -23,7 +23,7 @@ export default withLayout(
         <title>Goska Soluch | Trainerin • Referentin • Supervisorin</title>
       </Helmet>
 
-      <Header title="Trainerin • Referentin • Supervisorin" />
+      <Header title="Trainerin • Referentin • Prozessbegleiterin" />
 
       <Hello images={helloImages} {...hello} />
 
