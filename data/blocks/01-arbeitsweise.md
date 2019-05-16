@@ -1,18 +1,30 @@
 ---
-title: Arbeitsweise
+title: Meine Arbeitsweise und ich
 theme: yellow
 order: 1
 ---
-Meine Arbeitshaltung ist geprägt durch einen ressourcen- und lösungsorientierten Blick. Prozeßbegleitung und Seminararbeit sollten auch Spaß machen, deshalb liegt mir viel an einer entspannten und humorvollen Atmosphäre.
+Humor, fachliches Wissen kombiniert mit anspruchsvoller Wortakrobatik: Das sind
+die Gründe, weshalb ich meine Arbeit liebe und diese Begeisterung auch übertragen
+kann. Welche Schwerpunkte mir dabei wichtig sind? - An den vorhandenen Ressourcen
+und Lösungen ansetzen. Und auch wenn Prozesse nicht immer leicht sind und
+Seminararbeit manchmal anstrengend. Sie sollten immer auch Spaß machen. Deswegen
+liegt mir viel an einer entspannten und humorvollen Atmosphäre.
 
 <!-- excerpt-end -->
 
 ## Ansätze
 
-Bei meiner Arbeit setze ich vielfältige und interaktive Methoden ein und passe
-meine Konzepte den Interessen und Bedürfnisse der unterschiedlichen Zielgruppen
-an. Ganz im Sinne der Prozessorientierung.
+Da das Leben nie aus stringenten und geradlinigen Wegen und Lösungen besteht,
+setze ich bei meiner Arbeit  auf vielfältige und interaktive Methoden. Ich passe
+dabei meine Konzepte den Interessen und Bedürfnisse der unterschiedlichen
+Zielgruppen und Menschen an. Ganz im Sinne der Prozessorientierung. Und ganz im
+Sinne der Teilnehmenden, die sich so wesentlich besser auf mich und den Prozess
+einlassen können.
 
-Ich arbeite mit einem methodischen Dreieck aus Übungen zur Selbstreflexion,
+Ich arbeite gern mit einem methodischen Dreieck aus Übungen zur Selbstreflexion,
 kurzen theoretischen Inputs zur Wissenserweiterung und anschließenden Elementen
-zur Praxisreflexion und sofern gewünscht Praxistransfer.
+zur Praxisreflexion und, sofern gewünscht, einem Praxistransfer. Meine Stärke
+hierbei ist die Kunst der Übertragung und des Brückenbauens. Mit meiner Hilfe
+können die Teilnehmenden theoretische Inhalte in ihre eigene Handlungspraxis
+übertragen und stehen weniger vor dem Dilemma, das Gelernte allein umsetzen zu
+müssen.
