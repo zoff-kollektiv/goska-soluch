@@ -61,10 +61,11 @@ export default css`
     display: flex;
     flex: 0 1 auto;
     flex-direction: column;
+    margin-bottom: 1.5rem;
     padding-left: 1.5rem;
     padding-top: 1rem;
     text-align: center;
-    width: 45%;
+    width: 40%;
   }
 
   @media ${mq.tablet} {
@@ -75,6 +76,10 @@ export default css`
 
   .navigation-list-item:nth-child(2) {
     margin-top: -2rem;
+  }
+
+  .navigation-list-item:nth-child(3) {
+    width: 60%;
   }
 
   .navigation-item::before {

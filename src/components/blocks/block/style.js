@@ -14,7 +14,7 @@ export default css`
 
   @media ${mq.tablet} {
     section {
-      padding: 3.5rem 0;
+      padding: 4rem 0;
     }
   }
 

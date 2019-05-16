@@ -19,4 +19,8 @@ export default css`
       font-size: 3rem;
     }
   }
+
+  .headline.is-centered {
+    text-align: center;
+  }
 `;

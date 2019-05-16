@@ -21,7 +21,7 @@ export default css`
 
   @media ${mq.tablet} {
     .index {
-      font-size: 15rem;
+      font-size: 12.5rem;
       margin-bottom: 0;
     }
   }
@@ -29,6 +29,7 @@ export default css`
   .image {
     align-items: center;
     display: flex;
+    margin-top: 2.5rem;
     width: 40%;
   }
 

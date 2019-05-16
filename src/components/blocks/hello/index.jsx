@@ -24,7 +24,9 @@ export default ({ images, frontmatter: { theme, title }, intro }) => (
     <style jsx>{style}</style>
 
     <div className="text-container">
-      <Headline level="2">{title}</Headline>
+      <Headline level="2" centered>
+        {title}
+      </Headline>
       <Paragraph>{intro}</Paragraph>
 
       <a href="#kontakt">Kontakt</a>
