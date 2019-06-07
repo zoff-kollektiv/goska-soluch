@@ -5,7 +5,7 @@ order: 4
 image: "./04-biografie.jpg"
 ---
 “Das Haupthandwerkszeug einer Referentin ist sie selbst. Die Methode ist immer
-nur so gut, wie das Medium, welches sie anwendet und überträgt.” (K, 2018)
+nur so gut, wie das Medium, welches sie anwendet und überträgt.” (Kuhnert, 2018)
 
 Als Mensch mit einer vielschichtigen und durchaus auch holprigen Biografie lagen
 manche meiner Kompetenzen auf meinem Lern- und Bildungsweg und andere in meiner
