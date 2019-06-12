@@ -28,14 +28,21 @@ export default withLayout(
       <Hello images={helloImages} {...hello} />
 
       {blocks.map(
-        ({ excerpt, body, frontmatter: { title, theme, image } }, index) => (
+        (
+          {
+            excerpt,
+            body,
+            frontmatter: { title, theme, image, imagePortrait = false }
+          },
+          index
+        ) => (
           <Block id={title && title.toLowerCase()} theme={theme}>
             <BlockContent
               title={title}
               excerpt={excerpt}
               body={body}
               index={index + 1}
-              image={image}
+              image={imagePortrait || image}
             />
           </Block>
         )
@@ -96,6 +103,17 @@ export const query = graphql`
         frontmatter {
           title
           theme
+          imagePortrait {
+            childImageSharp {
+              fluid(maxWidth: 400, srcSetBreakpoints: [400, 200]) {
+                src
+                srcSet
+                srcWebp
+                srcSetWebp
+                sizes
+              }
+            }
+          }
           image {
             childImageSharp {
               fluid(maxWidth: 400, srcSetBreakpoints: [400, 200]) {
