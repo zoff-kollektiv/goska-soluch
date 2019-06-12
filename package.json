@@ -32,7 +32,7 @@
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.21",
     "husky": "^2.3.0",
-    "lint-staged": "^8.1.7",
+    "lint-staged": "^8.2.0",
     "prettier": "^1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
