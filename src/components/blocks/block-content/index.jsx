@@ -20,6 +20,7 @@ export default ({ index, title, body, excerpt, image }) => {
               srcSet={image.childImageSharp.fluid.srcSet}
               sizes={image.childImageSharp.fluid.sizes}
               alt=""
+              loading="lazy"
             />
           )}
         </div>
