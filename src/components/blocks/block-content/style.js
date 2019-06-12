@@ -28,13 +28,19 @@ export default css`
 
   @media ${mq.tablet} {
     .index {
-      font-size: 12.5rem;
+      font-size: 8rem;
       margin-bottom: 0;
     }
   }
 
+  @media ${mq.desktop} {
+    .index {
+      font-size: 12.5rem;
+    }
+  }
+
   .image {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     margin-bottom: 1.5rem;
     width: 100%;
@@ -56,6 +62,18 @@ export default css`
     flex: 1;
   }
 
+  @media ${mq.tablet} {
+    .content {
+      margin-left: 1rem;
+    }
+  }
+
+  @media ${mq.desktop} {
+    .content {
+      margin-left: 1.5rem;
+    }
+  }
+
   .excerpt-text,
   .richtext {
     display: flex;
@@ -67,6 +85,14 @@ export default css`
   }
 
   @media ${mq.tablet} {
+    .excerpt-text,
+    .richtext {
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+  }
+
+  @media ${mq.desktop} {
     .excerpt-text,
     .richtext {
       font-size: 1.5rem;

@@ -16,6 +16,12 @@ export default css`
 
   @media ${mq.tablet} {
     .has-level-2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media ${mq.desktop} {
+    .has-level-2 {
       font-size: 3rem;
     }
   }

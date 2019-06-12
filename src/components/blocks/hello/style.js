@@ -79,7 +79,7 @@ export default css`
   }
 
   .navigation-list-item:nth-child(3) {
-    width: 60%;
+    width: 65%;
   }
 
   .navigation-item::before {

@@ -14,7 +14,14 @@ export default css`
 
   @media ${mq.tablet} {
     section {
-      padding: 4rem 0;
+      padding: 3rem 1.5rem;
+    }
+  }
+
+  @media ${mq.desktop} {
+    section {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
