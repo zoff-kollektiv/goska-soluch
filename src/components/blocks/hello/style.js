@@ -105,13 +105,6 @@ export default css`
   }
 `;
 
-export const pictureStyle = css.resolve`
-  picture {
-    height: auto;
-    width: 100%;
-  }
-`;
-
 export const imageStyle = css.resolve`
   img {
     height: auto;

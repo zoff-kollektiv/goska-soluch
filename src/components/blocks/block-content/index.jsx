@@ -15,19 +15,12 @@ export default ({ index, title, body, excerpt, image }) => {
       <header className="excerpt">
         <div className="image">
           {image && image.childImageSharp && (
-            <picture>
-              <source
-                srcSet={image.childImageSharp.fluid.srcSetWebp}
-                sizes={image.childImageSharp.fluid.sizes}
-                type="image/webp"
-              />
-              <source
-                srcSet={image.childImageSharp.fluid.srcSet}
-                sizes={image.childImageSharp.fluid.sizes}
-                type="image/png"
-              />
-              <img src={image.childImageSharp.fluid.src} alt="" />
-            </picture>
+            <img
+              src={image.childImageSharp.fluid.src}
+              srcSet={image.childImageSharp.fluid.srcSet}
+              sizes={image.childImageSharp.fluid.sizes}
+              alt=""
+            />
           )}
         </div>
         <div className="content">

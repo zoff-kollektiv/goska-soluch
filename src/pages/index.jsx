@@ -85,8 +85,6 @@ export const query = graphql`
           fluid(maxWidth: 400, srcSetBreakpoints: [400, 200]) {
             src
             srcSet
-            srcWebp
-            srcSetWebp
             sizes
           }
         }
@@ -105,22 +103,18 @@ export const query = graphql`
           theme
           imagePortrait {
             childImageSharp {
-              fluid(maxWidth: 400, srcSetBreakpoints: [400, 200]) {
+              fluid(maxWidth: 400, srcSetBreakpoints: [800, 400, 200]) {
                 src
                 srcSet
-                srcWebp
-                srcSetWebp
                 sizes
               }
             }
           }
           image {
             childImageSharp {
-              fluid(maxWidth: 400, srcSetBreakpoints: [400, 200]) {
+              fluid(maxWidth: 400, srcSetBreakpoints: [800, 400, 200]) {
                 src
                 srcSet
-                srcWebp
-                srcSetWebp
                 sizes
               }
             }

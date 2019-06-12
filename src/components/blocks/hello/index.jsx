@@ -4,19 +4,22 @@ import Block from '../block';
 import Headline from '../../headline';
 import Paragraph from '../../paragraph';
 
-import style, { imageStyle, pictureStyle } from './style';
+import style, { imageStyle } from './style';
 
 const findImageByName = (name, images) =>
   images.find(({ name: imageName }) => imageName === name);
 
 const Picture = ({ childImageSharp: { fluid: attrs } }) => (
-  <picture className={pictureStyle.className}>
-    {pictureStyle.styles}
+  <>
     {imageStyle.styles}
-    <source srcSet={attrs.srcSetWebp} sizes={attrs.sizes} type="image/webp" />
-    <source srcSet={attrs.srcSet} sizes={attrs.sizes} type="image/png" />
-    <img src={attrs.src} alt="" className={imageStyle.className} />
-  </picture>
+    <img
+      src={attrs.src}
+      srcSet={attrs.srcSet}
+      sizes={attrs.sizes}
+      className={imageStyle.className}
+      alt=""
+    />
+  </>
 );
 
 export default ({ images, frontmatter: { theme, title }, intro }) => (
