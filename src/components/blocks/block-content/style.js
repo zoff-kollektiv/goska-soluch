@@ -11,12 +11,19 @@ export default css`
 
   .excerpt {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  @media ${mq.tablet} {
+    .excerpt {
+      flex-direction: row;
+    }
   }
 
   .index {
     font-family: ${fonts.questrial.family};
-    font-size: 6.25rem;
+    font-size: 4.25rem;
+    line-height: 1.2;
   }
 
   @media ${mq.tablet} {
@@ -29,8 +36,16 @@ export default css`
   .image {
     align-items: center;
     display: flex;
-    margin-top: 2.5rem;
-    width: 40%;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  @media ${mq.tablet} {
+    .image {
+      margin-bottom: 0;
+      margin-top: 2.5rem;
+      width: 40%;
+    }
   }
 
   .image img {
@@ -99,6 +114,7 @@ export default css`
     line-height: 1.375;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5rem;
   }
 
   .toggle:hover,
@@ -108,8 +124,16 @@ export default css`
   }
 
   .toggle svg {
-    height: 3.5rem;
-    margin-top: 1rem;
-    width: 3.5rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    width: 2.5rem;
+  }
+
+  @media ${mq.tablet} {
+    .toggle svg {
+      height: 3.5rem;
+      margin-top: 1rem;
+      width: 3.5rem;
+    }
   }
 `;
