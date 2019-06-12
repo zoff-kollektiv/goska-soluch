@@ -15,6 +15,7 @@ export default css`
     align-self: center;
     font-family: ${fonts.questrial.family};
     font-size: 0.9rem;
+    line-height: 1.5;
     margin: 0 auto;
     text-align: center;
   }
