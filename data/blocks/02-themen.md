@@ -5,7 +5,7 @@ order: 2
 ---
 Immer empfehle ich als Erstes: Schreiben Sie mich auf jeden Fall an und fragen
 Sie, ob ich Ihre individuellen Themen abdecken und übernehmen kann! Und dennoch
-kann ich mein Themenportfolio etwas kategorisieren: SUPERVISION und Coaching, ausgehend von
+kann ich mein Themenportfolio etwas kategorisieren: Supervision und Coaching, ausgehend von
 Diversity oder Vielfalt zur Inklusion, Vorurteilsbewusste Bildung,
 Selbstbehauptung, Dialog als Haltung, konstruktiver Umgang mit Konflikten,
 Klassismus und Armut sowie Gender und sexuelle Vielfalt.
