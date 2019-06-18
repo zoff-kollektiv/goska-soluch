@@ -1,5 +1,5 @@
 ---
-title: Themen
+title: Meine Themen
 theme: blue
 order: 2
 image: "./02-themen.png"
