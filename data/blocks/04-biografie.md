@@ -12,6 +12,8 @@ manche meiner Kompetenzen auf meinem Lern- und Bildungsweg und andere in meiner
 sprichwörtlichen Wiege. Nicht alles lief gut, nicht alles war günstig. Und
 anderes hingegen lief sehr gut und war auch ein großes Glück.
 
+<!-- excerpt-end -->
+
 Immer wieder traf ich auf Menschen, die neue Weichen in meinem Leben gestellt
 haben. Und so bin ich heute diejenige, die ich bin. Mein bisheriges Leben und
 die Facetten meiner Biografie helfen mir, einen differenzierten Blick auf
@@ -23,8 +25,6 @@ von Unbekanntem überzeugen, lerne mit Freude Neues und habe Spaß an der
 Kontroverse. “Durch Reibung entsteht Wärme!” - Zu einfach, finden Sie? Genau
 mein Fall, sage ich. Begeben Sie Sich mit mir in neue Lernprozesse und erleben
 Sie mich. Sie werden nicht enttäuscht sein.
-
-<!-- excerpt-end -->
 
 ## Vita
 
