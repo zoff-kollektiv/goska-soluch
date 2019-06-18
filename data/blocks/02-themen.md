@@ -1,8 +1,9 @@
 ---
-title: Meine Themen
+title: Themen
 theme: blue
 order: 2
 image: "./02-themen.png"
+moreLabel: Mehr zu meinen Schwerpunkten
 ---
 Immer empfehle ich als Erstes: Schreiben Sie mich auf jeden Fall an und fragen
 Sie, ob ich Ihre individuellen Themen abdecken und übernehmen kann! Und dennoch

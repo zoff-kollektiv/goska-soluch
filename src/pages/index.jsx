@@ -32,7 +32,13 @@ export default withLayout(
           {
             excerpt,
             body,
-            frontmatter: { title, theme, image, imagePortrait = false }
+            frontmatter: {
+              title,
+              theme,
+              image,
+              imagePortrait = false,
+              moreLabel = 'Mehr lesen'
+            }
           },
           index
         ) => (
@@ -43,6 +49,7 @@ export default withLayout(
               body={body}
               index={index + 1}
               image={imagePortrait || image}
+              moreLabel={moreLabel}
             />
           </Block>
         )
@@ -101,6 +108,7 @@ export const query = graphql`
         frontmatter {
           title
           theme
+          moreLabel
           imagePortrait {
             childImageSharp {
               fluid(maxWidth: 400, srcSetBreakpoints: [800, 400, 200]) {

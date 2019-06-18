@@ -3,6 +3,7 @@ title: Ich bin Goska
 theme: yellow
 order: 4
 image: "./04-biografie.jpg"
+moreLabel: Meine Vita
 ---
 “Das Haupthandwerkszeug einer Referentin ist sie selbst. Die Methode ist immer
 nur so gut, wie das Medium, welches sie anwendet und überträgt.” (Kuhnert, 2018)
@@ -26,7 +27,7 @@ Kontroverse. “Durch Reibung entsteht Wärme!” - Zu einfach, finden Sie? Gena
 mein Fall, sage ich. Begeben Sie Sich mit mir in neue Lernprozesse und erleben
 Sie mich. Sie werden nicht enttäuscht sein.
 
-## Vita
+
 
 ### Ausbildung
 

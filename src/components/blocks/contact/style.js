@@ -14,7 +14,7 @@ export default css`
     color: currentColor;
     display: block;
     font-family: ${fonts.questrial.family};
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     text-align: center;
     text-decoration: none;

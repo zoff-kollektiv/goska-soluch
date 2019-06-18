@@ -74,12 +74,13 @@ export default css`
     }
   }
 
-  .navigation-list-item:nth-child(2) {
-    margin-top: -2rem;
-  }
-
   .navigation-list-item:nth-child(3) {
     width: 65%;
+  }
+
+  .navigation-item {
+    display: block;
+    margin-top: 1rem;
   }
 
   .navigation-item::before {

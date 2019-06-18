@@ -5,7 +5,7 @@ import { fonts, mq } from '../../token';
 export default css`
   p {
     font-family: ${fonts.questrial.family};
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 1.375;
   }
 

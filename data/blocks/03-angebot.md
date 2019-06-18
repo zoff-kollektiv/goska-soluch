@@ -4,6 +4,7 @@ theme: red
 order: 3
 image: "./03-angebot.png"
 imagePortrait: "./03-angebot-portrait.png"
+moreLabel: Meine Schwerpunkte
 ---
 Der Prozess ist mein Steckenpferd, Gruppendynamiken meine Obsession. Deswegen
 überlasse ich das Format, in welchem wir zusammen arbeiten und lernen wollen,

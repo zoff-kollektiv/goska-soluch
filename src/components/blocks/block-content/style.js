@@ -113,9 +113,12 @@ export default css`
     }
   }
 
+  :global(.richtext > h2:first-child) {
+    text-align: center;
+  }
+
   :global(.richtext > *:first-child) {
     flex: 1 0 100%;
-    text-align: center;
     width: 100%;
   }
 
