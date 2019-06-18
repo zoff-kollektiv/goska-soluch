@@ -27,16 +27,33 @@ export default withLayout(
 
       <Hello images={helloImages} {...hello} />
 
-      {blocks.map(({ excerpt, body, frontmatter: { title, theme } }, index) => (
-        <Block id={title && title.toLowerCase()} theme={theme}>
-          <BlockContent
-            title={title}
-            excerpt={excerpt}
-            body={body}
-            index={index + 1}
-          />
-        </Block>
-      ))}
+      {blocks.map(
+        (
+          {
+            excerpt,
+            body,
+            frontmatter: {
+              title,
+              theme,
+              image,
+              imagePortrait = false,
+              moreLabel = 'Mehr lesen'
+            }
+          },
+          index
+        ) => (
+          <Block id={title && title.toLowerCase()} theme={theme}>
+            <BlockContent
+              title={title}
+              excerpt={excerpt}
+              body={body}
+              index={index + 1}
+              image={imagePortrait || image}
+              moreLabel={moreLabel}
+            />
+          </Block>
+        )
+      )}
 
       <Contact id="kontakt" {...contact} />
     </main>
@@ -53,7 +70,7 @@ export const query = graphql`
       }
     }
 
-    contact: markdownRemark(fileAbsolutePath: { regex: "/contact.md$/" }) {
+    contact: markdownRemark(fileAbsolutePath: { regex: "/05-contact.md$/" }) {
       intro: rawMarkdownBody
       frontmatter {
         title
@@ -64,7 +81,10 @@ export const query = graphql`
     }
 
     helloImages: allFile(
-      filter: { sourceInstanceName: { eq: "images-hello" } }
+      filter: {
+        sourceInstanceName: { eq: "images-hello" }
+        absolutePath: { regex: "/jpg|png$/" }
+      }
     ) {
       nodes {
         name
@@ -72,8 +92,6 @@ export const query = graphql`
           fluid(maxWidth: 400, srcSetBreakpoints: [400, 200]) {
             src
             srcSet
-            srcWebp
-            srcSetWebp
             sizes
           }
         }
@@ -90,6 +108,25 @@ export const query = graphql`
         frontmatter {
           title
           theme
+          moreLabel
+          imagePortrait {
+            childImageSharp {
+              fluid(maxWidth: 400, srcSetBreakpoints: [800, 400, 200]) {
+                src
+                srcSet
+                sizes
+              }
+            }
+          }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 400, srcSetBreakpoints: [800, 400, 200]) {
+                src
+                srcSet
+                sizes
+              }
+            }
+          }
         }
       }
     }

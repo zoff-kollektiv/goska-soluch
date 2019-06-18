@@ -2,6 +2,8 @@
 title: Meine Arbeitsweise und ich
 theme: yellow
 order: 1
+image: "./01-arbeitsweise.png"
+moreLabel: Mehr zu meinen Ansätzen
 ---
 Humor, fachliches Wissen kombiniert mit anspruchsvoller Wortakrobatik: Das sind
 die Gründe, weshalb ich meine Arbeit liebe und diese Begeisterung auch übertragen

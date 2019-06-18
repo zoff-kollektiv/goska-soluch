@@ -14,7 +14,14 @@ export default css`
 
   @media ${mq.tablet} {
     section {
-      padding: 3.5rem 0;
+      padding: 3rem 1.5rem;
+    }
+  }
+
+  @media ${mq.desktop} {
+    section {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 
@@ -33,7 +40,7 @@ export default css`
   .constraint {
     display: flex;
     flex-direction: column;
-    max-width: 920px;
+    max-width: 1100px;
   }
 
   @media ${mq.tablet} {

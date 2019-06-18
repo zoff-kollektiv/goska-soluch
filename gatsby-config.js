@@ -4,7 +4,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images-hello',
-        path: `${__dirname}/static/images`
+        path: `${__dirname}/data/blocks`
       }
     },
 

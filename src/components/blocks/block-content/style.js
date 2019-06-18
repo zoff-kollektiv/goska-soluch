@@ -6,31 +6,72 @@ export default css`
   article {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .excerpt {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+
+  @media ${mq.tablet} {
+    .excerpt {
+      flex-direction: row;
+    }
   }
 
   .index {
     font-family: ${fonts.questrial.family};
-    font-size: 6.25rem;
-    margin-bottom: 2rem;
-    text-align: center;
+    font-size: 4.25rem;
+    line-height: 1.2;
   }
 
   @media ${mq.tablet} {
     .index {
-      font-size: 25rem;
+      font-size: 8rem;
       margin-bottom: 0;
-      text-align: left;
+    }
+  }
+
+  @media ${mq.desktop} {
+    .index {
+      font-size: 12.5rem;
+    }
+  }
+
+  .image {
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  @media ${mq.tablet} {
+    .image {
+      margin-bottom: 0;
+      margin-top: 2.5rem;
       width: 40%;
     }
   }
 
+  .image img {
+    width: 95%;
+  }
+
   .content {
     flex: 1;
+  }
+
+  @media ${mq.tablet} {
+    .content {
+      margin-left: 1rem;
+    }
+  }
+
+  @media ${mq.desktop} {
+    .content {
+      margin-left: 1.5rem;
+    }
   }
 
   .excerpt-text,
@@ -38,12 +79,20 @@ export default css`
     display: flex;
     flex-direction: column;
     font-family: ${fonts.questrial.family};
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 1.375;
     width: 100%;
   }
 
   @media ${mq.tablet} {
+    .excerpt-text,
+    .richtext {
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+  }
+
+  @media ${mq.desktop} {
     .excerpt-text,
     .richtext {
       font-size: 1.5rem;
@@ -64,9 +113,12 @@ export default css`
     }
   }
 
+  :global(.richtext > h2:first-child) {
+    text-align: center;
+  }
+
   :global(.richtext > *:first-child) {
     flex: 1 0 100%;
-    text-align: center;
     width: 100%;
   }
 
@@ -91,6 +143,7 @@ export default css`
     line-height: 1.375;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.5rem;
   }
 
   .toggle:hover,
@@ -100,8 +153,16 @@ export default css`
   }
 
   .toggle svg {
-    height: 3.5rem;
-    margin-top: 1rem;
-    width: 3.5rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    width: 2.5rem;
+  }
+
+  @media ${mq.tablet} {
+    .toggle svg {
+      height: 3.5rem;
+      margin-top: 1rem;
+      width: 3.5rem;
+    }
   }
 `;

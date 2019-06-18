@@ -61,6 +61,7 @@ export default css`
     display: flex;
     flex: 0 1 auto;
     flex-direction: column;
+    margin-bottom: 1.5rem;
     padding-left: 1.5rem;
     padding-top: 1rem;
     text-align: center;
@@ -73,8 +74,13 @@ export default css`
     }
   }
 
-  .navigation-list-item:nth-child(2) {
-    margin-top: -2rem;
+  .navigation-list-item:nth-child(3) {
+    width: 65%;
+  }
+
+  .navigation-item {
+    display: block;
+    margin-top: 1rem;
   }
 
   .navigation-item::before {
@@ -97,13 +103,6 @@ export default css`
   a:focus {
     opacity: 0.6;
     text-decoration: none;
-  }
-`;
-
-export const pictureStyle = css.resolve`
-  picture {
-    height: auto;
-    width: 100%;
   }
 `;
 

@@ -5,12 +5,16 @@ import React from 'react';
 import { fonts, mq } from '../../../token';
 
 export default css`
+  .text-container {
+    text-align: center;
+  }
+
   .telephone,
   .email {
     color: currentColor;
     display: block;
     font-family: ${fonts.questrial.family};
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     text-align: center;
     text-decoration: none;

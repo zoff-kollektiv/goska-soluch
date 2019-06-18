@@ -7,7 +7,6 @@ export default css`
     font-family: ${fonts.questrial.family};
     margin-bottom: 0;
     margin-top: 0;
-    text-align: center;
   }
 
   .has-level-2 {
@@ -17,7 +16,17 @@ export default css`
 
   @media ${mq.tablet} {
     .has-level-2 {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media ${mq.desktop} {
+    .has-level-2 {
       font-size: 3rem;
     }
+  }
+
+  .headline.is-centered {
+    text-align: center;
   }
 `;
