@@ -79,7 +79,7 @@ export default css`
     display: flex;
     flex-direction: column;
     font-family: ${fonts.questrial.family};
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 1.375;
     width: 100%;
   }
