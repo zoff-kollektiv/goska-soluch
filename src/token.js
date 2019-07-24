@@ -10,7 +10,7 @@ export const fonts = {
   }
 };
 
-export const mq = [['phone', 500], ['tablet', 768], ['desktop', 1024]].reduce(
+export const mq = [['phone', 500], ['tablet', 768], ['desktop', 1200]].reduce(
   (acc, [name, size]) => {
     acc[name] = `only screen and (min-width: ${size}px)`;
     return acc;
