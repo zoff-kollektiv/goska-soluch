@@ -26,6 +26,7 @@ module.exports = {
     'gatsby-plugin-styled-jsx',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp'
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-preact'
   ]
 };
