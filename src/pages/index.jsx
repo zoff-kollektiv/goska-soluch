@@ -42,7 +42,7 @@ export default withLayout(
           },
           index
         ) => (
-          <Block id={title && title.toLowerCase()} theme={theme}>
+          <Block id={`${index + 1}`} theme={theme}>
             <BlockContent
               title={title}
               excerpt={excerpt}

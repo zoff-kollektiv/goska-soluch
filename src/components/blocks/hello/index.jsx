@@ -38,21 +38,21 @@ export default ({ images, frontmatter: { theme, title }, intro }) => (
     <nav className="navigation">
       <ol className="navigation-list">
         <li className="navigation-list-item">
-          <a href="#arbeitsweise">
+          <a href="#1">
             <Picture {...findImageByName('01-arbeitsweise', images)} />
             <span className="navigation-item">Arbeitsweise</span>
           </a>
         </li>
 
         <li className="navigation-list-item">
-          <a href="#themen">
+          <a href="#2">
             <Picture {...findImageByName('02-themen', images)} />
             <span className="navigation-item">Themen</span>
           </a>
         </li>
 
         <li className="navigation-list-item">
-          <a href="#angebot">
+          <a href="#3">
             <Picture {...findImageByName('03-angebot', images)} />
             <span className="navigation-item">Angebot</span>
           </a>
