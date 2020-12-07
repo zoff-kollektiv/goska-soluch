@@ -7,9 +7,9 @@ moreLabel: Mehr zu meinen Schwerpunkten
 ---
 Immer empfehle ich als Erstes: Schreiben Sie mich auf jeden Fall an und fragen
 Sie, ob ich Ihre individuellen Themen abdecken und übernehmen kann! Und dennoch
-kann ich mein Themenportfolio etwas kategorisieren: Supervision und Coaching, ausgehend von
-Diversity oder Vielfalt zur Inklusion, Vorurteilsbewusste Bildung,
-Selbstbehauptung, Dialog als Haltung, konstruktiver Umgang mit Konflikten,
+kann ich mein Themenportfolio als Präsenz oder online etwas kategorisieren: Supervision und Coaching, Prozessbegleitung ausgehend von
+Diversity oder Vielfalt zur Inklusion, Vorurteilsbewusste Bildung, Selbstförsorgen und Stressmanagement, Resilienz, 
+Selbstbehauptung, Dialog als Haltung, konstruktiver Umgang mit Konflikten, 
 Klassismus und Armut sowie Gender und sexuelle Vielfalt.
 
 Wie Sie sehen - ein reicher Strauß an Fachlichkeit. Und innerhalb derer dennoch
@@ -21,16 +21,19 @@ meine eigene Schwerpunktsetzung.
 
 ### Diversity / Vielfalt
 
+- Empowerment
 - Inklusion
 - vorurteilsbewusste Bildung und Erziehung
 - Anti-Bias-Ansatz / interkulturelle Kompetenz
+- Geschlechtliche und sexuelle Vielfalt
 
 ### Verbale und Nonverbale Kommunikation
 
-- Selbstbehauptung/ Grenzen setzen
+- Wertschätzende Kommunikation
 - SAM (Systemisches Aggressions-Management)
 - (schwierige) Elterngespräche (Methodenkoffer)
 - Argumentationstraining gegen Stammtischparolen / Zivilcourage
+- SAM (Systemisches Aggressions-Management)
 
 ### Frühkindliche Bildung
 
@@ -41,14 +44,14 @@ meine eigene Schwerpunktsetzung.
 - Sexualpädagogik
 - Dialogische Haltung
 - Geschlechterrollen
-- Resilienz
-- Adultismus
-- Vernetzung
+
 
 ### Supervision
 
 - für Einzelnpersonen
 - für Gruppen
+- Diversity Beratung
+- Öffnungs- und Prozessbegleitung
 
 
 Nichts dabei, wovon Ihre Gruppe, Ihr Team profitieren könnte? Nicht genug Futter
