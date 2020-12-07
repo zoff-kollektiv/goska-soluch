@@ -16,21 +16,21 @@ Vertiefungsseminare und mehrjährige Praxis- & Prozessbegleitungen an.
 
 ## Schwerpunkte
 
-### Konkrete Angebote
+### Konkrete Angebote - als Präsenz und online
 
 - Einführungskurse (Fortbildungen und Workshops als Impuls)
 - mehrtägige Fortbildungen (Fortbildungen zur Wissenserweiterung)
 - Praxis-/Prozessbegleitung
 - Einzel- und Teamcoaching
 - Supervision/ Mediation
-- Selbstbehauptungstraining
+- Trainings (Kommunikation und Selbstbehauptung)
 
 ### Beispiele
 
-- Intervenieren bei Ausgrenzung und Diskriminierung in Kita und Schule
-- Handlungssicherheit bei herausforderndem Verhalten von Kindern erlangen (Training)
-- Lebensrealitäten von Familien mit kleinen Einkommen: Armutsursachen, -symptome und - folgen in Familien.
-- Teilhabechancen erhöhen- aktuelle Leistungen für Familien mit kleinen Einkommen
+- Selbstfürsorge und Stressmanagement - für mehr Gelassenheit im Umgang mit Belastungssituationen 
+- Vielfalt sexueller und geschlechtlicher Lebensweisen und Identitäten 
+- Lebensrealitäten von Familien mit kleinen Einkommen: Armutsursachen, -symptome und - folgen in Familien
+- Rassismuskritisches Bewusstsein für den Berufsalltag
 
 Das Format vom Lernen und von Reflexion sollten am Ende Sie selbst festlegen und
 bestimmen. Sie wissen, was zu Ihnen passt und wie Sie und Ihre Kolleg*innen gut
