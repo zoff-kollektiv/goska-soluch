@@ -33,11 +33,14 @@ Sie mich. Sie werden nicht enttäuscht sein.
 - SAM- Trainerin (Systemisches Aggressions-Management)
 - Mediationsausbildung Berlin
 - Selbestbehauptung / Selbstverteidigungsausbildung LSB NRW
-- nifbe - Niedersächsisches Institut für frühkindliche Bildung und Entwicklung
+
 
 ### Aktuelle Projekte
 
 - BMFSFJ: Bundesprogramm „Elternchance II-Familien früh für Bildung gewinnen"
-- Stiftung SPI: zielgerichtete Unterstützung von Familien mit kleinen Einkommen“
-- AEWB- Agentur für Erwachsenen- und Weiterbildung in Hannover
-- FRÖBEL (Bildung und Erziehung gemeinnützige GmbH):  Standorte Polen und Deutschland
+- Forum der Kulturen Stuttgart e.V.
+- AWO Bundesverband e.V.: Queer im Alter
+- Stadt Karlsruhe: Personal- und Organisationsamt
+- AEWB- Agentur für Erwachsenen- und Weiterbildung in Hannover: „Methodentraining digital“
+- AWO Bundesverband e.V.: DEVI - Demokratie stärken. Vielfalt gestalten.
+- nifbe- Niedersächsisches Institut für frühkindliche Bildung und Entwicklung e.V.
