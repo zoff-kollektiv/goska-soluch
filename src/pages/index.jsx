@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Block from '../components/blocks/block';
 import BlockContent from '../components/blocks/block-content';
 import Contact from '../components/blocks/contact';
+import Footer from '../components/footer';
 import Header from '../components/header';
 import Hello from '../components/blocks/hello';
 import withLayout from '../components/with-layout';
@@ -17,45 +18,48 @@ export default withLayout(
       blocks: { nodes: blocks }
     }
   }) => (
-    <main>
-      <Helmet>
-        <title>Goska Soluch | Trainerin • Referentin • Supervisorin</title>
-      </Helmet>
+    <>
+      <main>
+        <Helmet>
+          <title>Goska Soluch | Trainerin • Referentin • Supervisorin</title>
+        </Helmet>
 
-      <Header title="Trainerin • Referentin • Supervisorin" />
+        <Header title="Trainerin • Referentin • Supervisorin" />
 
-      <Hello images={helloImages} {...hello} />
+        <Hello images={helloImages} {...hello} />
 
-      {blocks.map(
-        (
-          {
-            excerpt,
-            body,
-            frontmatter: {
-              title,
-              theme,
-              image,
-              imagePortrait = false,
-              moreLabel = 'Mehr lesen'
-            }
-          },
-          index
-        ) => (
-          <Block id={`${index + 1}`} theme={theme}>
-            <BlockContent
-              title={title}
-              excerpt={excerpt}
-              body={body}
-              index={index + 1}
-              image={imagePortrait || image}
-              moreLabel={moreLabel}
-            />
-          </Block>
-        )
-      )}
+        {blocks.map(
+          (
+            {
+              excerpt,
+              body,
+              frontmatter: {
+                title,
+                theme,
+                image,
+                imagePortrait = false,
+                moreLabel = 'Mehr lesen'
+              }
+            },
+            index
+          ) => (
+            <Block id={`${index + 1}`} theme={theme}>
+              <BlockContent
+                title={title}
+                excerpt={excerpt}
+                body={body}
+                index={index + 1}
+                image={imagePortrait || image}
+                moreLabel={moreLabel}
+              />
+            </Block>
+          )
+        )}
 
-      <Contact id="kontakt" {...contact} />
-    </main>
+        <Contact id="kontakt" {...contact} />
+      </main>
+      <Footer />
+    </>
   )
 );
 
@@ -98,7 +102,11 @@ export const query = graphql`
     }
 
     blocks: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/^((?!hello|contact.md).)*$/" } }
+      filter: {
+        fileAbsolutePath: {
+          regex: "/^((?!hello|contact|impressum|datenschutz.md).)*$/"
+        }
+      }
       sort: { fields: [frontmatter___order] }
     ) {
       nodes {
