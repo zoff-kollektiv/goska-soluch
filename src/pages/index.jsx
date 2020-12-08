@@ -1,7 +1,6 @@
-import { graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import React from 'react';
-
+import { graphql } from 'gatsby';
 import Block from '../components/blocks/block';
 import BlockContent from '../components/blocks/block-content';
 import Contact from '../components/blocks/contact';
@@ -63,7 +62,7 @@ export default withLayout(
 export const query = graphql`
   query {
     hello: markdownRemark(fileAbsolutePath: { regex: "/hello.md$/" }) {
-      intro: rawMarkdownBody
+      intro: html
       frontmatter {
         title
         theme
@@ -71,7 +70,7 @@ export const query = graphql`
     }
 
     contact: markdownRemark(fileAbsolutePath: { regex: "/05-contact.md$/" }) {
-      intro: rawMarkdownBody
+      intro: html
       frontmatter {
         title
         theme
