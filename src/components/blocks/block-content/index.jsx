@@ -1,9 +1,8 @@
-// eslint-disable react/no-danger
+/* eslint-disable react/no-danger */
 
 import React, { useState } from 'react';
 
 import Headline from '../../headline';
-
 import style from './style';
 
 export default ({ index, title, body, excerpt, image, moreLabel }) => {
