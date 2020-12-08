@@ -2,7 +2,7 @@
 title: Hallo!
 theme: red
 ---
-Gośka* Soluch. Manchmal nur Gośka, manchmal Frau Soluch.
+Mein Name ist Gośka* Soluch. Manchmal nur Gośka, manchmal Frau Soluch.
 
 Ich möchte Ihnen hier Einblick in meine Erfahrungen und Themenbereiche aus den
 letzten 20 Jahren meiner Arbeit in der Jugend- und Erwachsenenbildung geben. Und
