@@ -17,6 +17,14 @@ module.exports = {
     },
 
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
+        path: `${__dirname}/data/pages`
+      }
+    },
+
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         excerpt_separator: '<!-- excerpt-end -->'
