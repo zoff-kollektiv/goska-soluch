@@ -5,7 +5,7 @@ theme: blue
 Stand: 8. Dezember 2020
 
 ## Inhaltsübersicht
-- Verantwortlicher
+- Verantwortliche
 - Übersicht der Verarbeitungen
 - Maßgebliche Rechtsgrundlagen
 - Sicherheitsmaßnahmen
@@ -27,7 +27,7 @@ Telefon: 0163 / 344 38 68
 E-Mail: goska.soluch@gmx.net
 
 ## Übersicht der Verarbeitungen
-Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen. Die in den Rechner eingegebenen Daten werden nur lokal auf dem Gerät der Nutzer*innen verarbeitet und nicht an einen externen Server übermittelt.
+Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer Verarbeitung zusammen und verweist auf die betroffenen Personen.
 
 ### Arten der verarbeiteten Daten
 - Inhaltsdaten (z.B. Texteingaben, Fotografien, Videos).
