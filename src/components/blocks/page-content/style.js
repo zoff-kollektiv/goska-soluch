@@ -1,5 +1,4 @@
 import css from 'styled-jsx/css';
-
 import { fonts, mq } from '../../../token';
 
 export default css`
@@ -111,6 +110,25 @@ export default css`
       flex-wrap: wrap;
       margin-top: 4rem;
     }
+  }
+
+  :global(.excerpt-text > p) {
+    margin: 0;
+    display: block;
+  }
+
+  :global(.excerpt-text a) {
+    text-decoration: underline;
+    color: black;
+  }
+
+  :global(.excerpt-text a:hover) {
+    text-decoration: none;
+    color: black;
+  }
+
+  :global(.richtext > h2:first-child) {
+    text-align: center;
   }
 
   :global(.richtext > h2:first-child) {

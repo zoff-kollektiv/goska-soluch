@@ -4,7 +4,7 @@ import React from 'react';
 import Headline from '../../headline';
 import style from './style';
 
-export default ({ title, excerpt }) => {
+export default ({ title, body }) => {
   return (
     <article>
       <style jsx>{style}</style>
@@ -12,7 +12,7 @@ export default ({ title, excerpt }) => {
         <Headline level="2">{title}</Headline>
         <div
           className="excerpt-text"
-          dangerouslySetInnerHTML={{ __html: excerpt }}
+          dangerouslySetInnerHTML={{ __html: body }}
         />
       </div>
     </article>
