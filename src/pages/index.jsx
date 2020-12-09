@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Block from '../components/blocks/block';
 import BlockContent from '../components/blocks/block-content';
 import Contact from '../components/blocks/contact';
+import Footer from '../components/footer';
 import Header from '../components/header';
 import Hello from '../components/blocks/hello';
 import withLayout from '../components/with-layout';
@@ -55,6 +56,7 @@ export default withLayout(
       )}
 
       <Contact id="kontakt" {...contact} />
+      <Footer />
     </main>
   )
 );
