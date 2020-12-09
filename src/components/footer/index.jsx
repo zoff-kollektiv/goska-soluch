@@ -11,7 +11,7 @@ const StyledLink = styled(props => <Link {...props} />)`
   line-height: 1.2;
   text-align: center;
   text-decoration: none;
-  margin: 0 0.2rem;
+  margin: 0 0.4rem;
   font-family: ${fonts.questrial.family};
 
   &:hover {
