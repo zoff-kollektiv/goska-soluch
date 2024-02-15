@@ -24,16 +24,14 @@ Vertiefungsseminare und mehrjährige diversitätsorientierte Organisationsentwic
 - Leitungs-, Einzel- und Teamcoaching
 - Mediation und Deeskaltionstraning
 
-### Kooperationen und inhaltliche Beispiele
+### Kooperationen
 
 - Landesprogramm Baden-Württemberg - Diversität als Aufgabe: Öffnung von Kultureinrichtungen
-Karlstorbahnhof e.V., Heidelberg: Diversitätsorientierte Prozessbegleitung
-- Zentrum für Kulturelle Teilhabe (ZfKT), Baden-Württemberg:
-„Weiterkommen!": Alte Feuerwache e.V., Mannheim: Diversitätsorientierte Prozessbegleitung
-- Theater an der Parkau, Berlin: Diversitätsorientierte Prozessbegleitung
-- Das Forum der Kulturen Stuttgart e. V.: „Barrieren abbauen, Teilhabe in Kunst und Kultur ermöglichen“ Sensibilisierung und Arbeitspraxis zur rassismuskritischen und diversitätssensiblen Öffnung von Kultureinrichtungen
-- Kulturamt Stadt Freiburg: Fortbildung „Diversitätssensible und inklusive Kulturpraxis
-- Forum der Kulturen Stuttgart e. V.: „MPOWERMENT – OUR BRAVE SPACE“ Empowerment Weiterbildung für Menschen in der Kunst- und Kulturbranche 
+- Zentrum für Kulturelle Teilhabe (ZfKT), Baden-Württemberg
+- Theater an der Parkau, Berlin
+- Forum der Kulturen Stuttgart e. V.
+- Kulturamt Stadt Freiburg und Mannheim
+- Stiftung SPI 
 
 Das Format vom Lernen und von Reflexion sollten am Ende Sie selbst festlegen und
 bestimmen. Sie wissen, was zu Ihnen passt und wie Sie und Ihre Kolleg*innen gut
