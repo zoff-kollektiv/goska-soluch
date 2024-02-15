@@ -10,7 +10,7 @@ Der Prozess ist mein Steckenpferd, Gruppendynamiken meine Obsession. Deswegen
 überlasse ich das Format, in welchem wir zusammen arbeiten und lernen wollen,
 schlussendlich Ihnen und Ihren Bedürfnissen. Grundsätzlich biete ich aber
 natürlich Einführungskurse & Sensibilisierung, mehrtägige Fortbildungen &
-Vertiefungsseminare und mehrjährige Praxis- & Prozessbegleitungen an.
+Vertiefungsseminare und mehrjährige diversitätsorientierte Organisationsentwicklung und Prozessbegleitung an.
 
 <!-- excerpt-end -->
 
@@ -18,23 +18,27 @@ Vertiefungsseminare und mehrjährige Praxis- & Prozessbegleitungen an.
 
 ### Konkrete Angebote
 
+- Diversitätsorientierte Prozessbegleitung
 - Einführungskurse (Fortbildungen und Workshops als Impuls)
 - mehrtägige Fortbildungen (Fortbildungen zur Wissenserweiterung)
-- Praxis-/Prozessbegleitung
-- Einzel- und Teamcoaching
-- Supervision / Mediation
-- Selbstbehauptungstraining
+- Leitungs-, Einzel- und Teamcoaching
+- Mediation und Deeskaltionstraning
 
-### Beispiele
+### Kooperationen und inhaltliche Beispiele
 
-- Intervenieren bei Ausgrenzung und Diskriminierung in Kita und Schule
-- Handlungssicherheit bei herausforderndem Verhalten von Kindern erlangen (Training)
-- Lebensrealitäten von Familien mit kleinen Einkommen: Armutsursachen, -symptome und - folgen in Familien.
-- Teilhabechancen erhöhen- aktuelle Leistungen für Familien mit kleinen Einkommen
+- Landesprogramm Baden-Württemberg - Diversität als Aufgabe: Öffnung von Kultureinrichtungen
+Karlstorbahnhof e.V., Heidelberg: Diversitätsorientierte Prozessbegleitung
+- Zentrum für Kulturelle Teilhabe (ZfKT), Baden-Württemberg:
+„Weiterkommen!": Alte Feuerwache e.V., Mannheim: Diversitätsorientierte Prozessbegleitung
+- Theater an der Parkau, Berlin: Diversitätsorientierte Prozessbegleitung
+- Das Forum der Kulturen Stuttgart e. V.: „Barrieren abbauen, Teilhabe in Kunst und Kultur ermöglichen“ Sensibilisierung und Arbeitspraxis zur rassismuskritischen und diversitätssensiblen Öffnung von Kultureinrichtungen
+- Kulturamt Stadt Freiburg: Fortbildung „Diversitätssensible und inklusive Kulturpraxis
+- Forum der Kulturen Stuttgart e. V.: „MPOWERMENT – OUR BRAVE SPACE“ Empowerment Weiterbildung für Menschen in der Kunst- und Kulturbranche 
 
 Das Format vom Lernen und von Reflexion sollten am Ende Sie selbst festlegen und
 bestimmen. Sie wissen, was zu Ihnen passt und wie Sie und Ihre Kolleg*innen gut
 teilhaben können. Ich berate Sie dabei gern, stehe Ihnen zur Seite und gebe
-meine Expertise mit Freude an sie weiter. <br/><br/> Garantien für’s Leben und
-Lernen gibt es nicht. Aber ich garantiere Ihnen, dass Sie nicht enttäuscht sein
+meine Expertise mit Freude an sie weiter. 
+
+Garantien für’s Leben undLernen gibt es nicht. Aber ich garantiere Ihnen, dass Sie nicht enttäuscht sein
 werden. Packen wir’s an!
