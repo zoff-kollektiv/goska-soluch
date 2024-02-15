@@ -22,7 +22,7 @@ Vertiefungsseminare und mehrjährige Praxis- & Prozessbegleitungen an.
 - mehrtägige Fortbildungen (Fortbildungen zur Wissenserweiterung)
 - Praxis-/Prozessbegleitung
 - Einzel- und Teamcoaching
-- Supervision/ Mediation
+- Supervision / Mediation
 - Selbstbehauptungstraining
 
 ### Beispiele
