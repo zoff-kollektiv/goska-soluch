@@ -18,7 +18,7 @@ Vertiefungsseminare und mehrjährige diversitätsorientierte Organisationsentwic
 
 ### Konkrete Angebote
 
-- Diversitätsorientierte Prozessbegleitung
+- Diversitätsorientierte Organisationsentwicklung und Prozessbegleitung
 - Einführungskurse (Fortbildungen und Workshops als Impuls)
 - mehrtägige Fortbildungen (Fortbildungen zur Wissenserweiterung)
 - Leitungs-, Einzel- und Teamcoaching
