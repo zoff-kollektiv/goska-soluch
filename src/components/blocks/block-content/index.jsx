@@ -9,6 +9,7 @@ import style from './style';
 export default ({ index, title, body, excerpt, image, moreLabel }) => {
   const [{ isOpen }, setOpen] = useState({ isOpen: false });
 
+  
   return (
     <article>
       <style jsx>{style}</style>
