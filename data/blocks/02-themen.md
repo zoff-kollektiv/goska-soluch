@@ -35,7 +35,7 @@ meine eigene Schwerpunktsetzung.
 
 - viele Themen auf Anfrage
 
-### Supervision
+### Coaching
 
 - für Einzelnpersonen
 - für Gruppen
