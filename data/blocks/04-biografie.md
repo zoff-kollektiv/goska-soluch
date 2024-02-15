@@ -34,8 +34,8 @@ Sie mich. Sie werden nicht enttäuscht sein.
 
 ### Aktuelle Projekte
 
-- Landesprogramm Baden-Württemberg - Diversität als Aufgabe: Öffnung von Kultureinrichtungen
-Karlstorbahnhof e.V., Heidelberg: Diversitätsorientierte Prozessbegleitung
+- Landesprogramm Baden-Württemberg - Diversität als Aufgabe:
+  Öffnung von Kultureinrichtungen Karlstorbahnhof e.V., Heidelberg: Diversitätsorientierte Prozessbegleitung
 - Zentrum für Kulturelle Teilhabe (ZfKT), Baden-Württemberg: „Weiterkommen!": Alte Feuerwache e.V., Mannheim
 - Forum der Kulturen Stuttgart e. V.: „Barrieren abbauen, Teilhabe in Kunst und Kultur ermöglichen“ Sensibilisierung und Arbeitspraxis zur rassismuskritischen und diversitätssensiblen Öffnung von Kultureinrichtungen
 - Forum der Kulturen Stuttgart e. V.: „MPOWERMENT – OUR BRAVE SPACE“ Empowerment Weiterbildung für Menschen in der Kunst- und Kulturbranche  
