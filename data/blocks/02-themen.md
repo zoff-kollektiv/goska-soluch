@@ -6,11 +6,9 @@ image: "./02-themen.png"
 moreLabel: Mehr zu meinen Schwerpunkten
 ---
 Immer empfehle ich als Erstes: Schreiben Sie mich auf jeden Fall an und fragen
-Sie, ob ich Ihre individuellen Themen abdecken und übernehmen kann! Und dennoch
-kann ich mein Themenportfolio etwas kategorisieren: Supervision und Coaching, ausgehend von
-Diversity oder Vielfalt zur Inklusion, Vorurteilsbewusste Bildung,
-Selbstbehauptung, Dialog als Haltung, konstruktiver Umgang mit Konflikten,
-Klassismus und Armut sowie Gender und sexuelle Vielfalt.
+Sie, ob ich Ihre individuellen Themen abdecken und übernehmen kann! 
+Und dennoch kann ich mein Themenportfolio etwas kategorisieren: Diversity & Change Management, Supervision und Coaching, ausgehend von Diversity zur Inklusion, Vorurteilsbewusste Bildung,
+Selbstbehauptung, Dialog als Haltung, konstruktiver Umgang mit Konflikten.
 
 Wie Sie sehen - ein reicher Strauß an Fachlichkeit. Und innerhalb derer dennoch
 meine eigene Schwerpunktsetzung.
@@ -21,35 +19,27 @@ meine eigene Schwerpunktsetzung.
 
 ### Diversity / Vielfalt
 
-- Inklusion
-- vorurteilsbewusste Bildung und Erziehung
-- Anti-Bias-Ansatz / interkulturelle Kompetenz
+- Diversitätsorientierte Organisationsentwicklung und Prozessbegleitung
+- Empowerment-Coaching
+- Awareness 
 
 ### Verbale und Nonverbale Kommunikation
 
-- Selbstbehauptung/ Grenzen setzen
+- Selbstbehauptung / Grenzen setzen
+- lösungsorientierte Gesprächsführung
 - SAM (Systemisches Aggressions-Management)
-- (schwierige) Elterngespräche (Methodenkoffer)
+- konstruktiver Umgang mit Konflikten
 - Argumentationstraining gegen Stammtischparolen / Zivilcourage
 
 ### Frühkindliche Bildung
 
-- Lebensrealitäten von Eltern mit kleinen Einkommen
-- gewaltfreies Aufwachsen
-- Herausforderndes Verhalten von Kindern
-- Elterngespräche
-- Sexualpädagogik
-- Dialogische Haltung
-- Geschlechterrollen
-- Resilienz
-- Adultismus
-- Vernetzung
+- viele Themen auf Anfrage
 
 ### Supervision
 
 - für Einzelnpersonen
 - für Gruppen
-
+- Teamentwicklung
 
 Nichts dabei, wovon Ihre Gruppe, Ihr Team profitieren könnte? Nicht genug Futter
 für Ihren Prozess? - Fragen Sie nach. Auch ich befinde mich in einem
