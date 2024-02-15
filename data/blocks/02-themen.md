@@ -25,11 +25,11 @@ meine eigene Schwerpunktsetzung.
 
 ### Verbale und Nonverbale Kommunikation
 
-- Selbstbehauptung / Grenzen setzen
+- Deeskalation / Selbstbehauptung / Grenzen setzen
 - lösungsorientierte Gesprächsführung
-- SAM (Systemisches Aggressions-Management)
+- Systemisches Konflikt- und Aggressions-Management
 - konstruktiver Umgang mit Konflikten
-- Argumentationstraining gegen Stammtischparolen / Zivilcourage
+- Argumentationstraining / Zivilcourage
 
 ### Frühkindliche Bildung
 
