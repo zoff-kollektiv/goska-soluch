@@ -40,6 +40,7 @@ meine eigene Schwerpunktsetzung.
 - für Einzelnpersonen
 - für Gruppen
 - Teamentwicklung
+- Selbstfürsorge und Stressmanagement
 
 Nichts dabei, wovon Ihre Gruppe, Ihr Team profitieren könnte? Nicht genug Futter
 für Ihren Prozess? - Fragen Sie nach. Auch ich befinde mich in einem
